@@ -1,0 +1,35 @@
+*{
+    font-family: 'PT Serif', serif;
+}
+
+.card {
+    border-color: rgb(168, 166, 166);
+    box-shadow: 3px 4px #cccccc;
+}
+
+.fas{
+    color: rgb(16, 133, 127);
+}
+
+.progress-bar{
+    background-color: rgb(8, 80, 38);
+    
+}
+
+.body-left{
+    background-color: rgb(71, 143, 143);
+}
+
+.name{
+    font-family: 'Syne', sans-serif;
+    font-size: 40px;
+}
+
+h3{
+    font-family: 'Arimo', sans-serif;
+    font-size: 35px;
+}
+h5{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+}

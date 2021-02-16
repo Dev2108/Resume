@@ -18,6 +18,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet"> 
     <title>MyResume</title>
+     <script>
+        
+    window.onload = function() {
+        var canvas = document.getElementById("myCanvas");
+        var context = canvas.getContext("2d");
+        context.font = 'italic 37px Calibri';
+        context.fillStyle = "#0d72f7";
+        context.fillText("Prashant Tripathi", 11, 90);
+        // draw stuff here
+    };
+
+    </script>
   </head>
   <body>
     
@@ -133,6 +145,13 @@
           
         
       </div>
+           <br>
+       <div >
+           <h4  class="mt-2"  style="float: right; font-style: italic; ">
+               Signature: <span> <canvas id="myCanvas"  ></canvas></span>
+           </h4>
+      
+    </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
